@@ -1,4 +1,4 @@
-#' Title
+#' Calculate the sums of sqares for a sample
 #'
 #' @param v
 #'
