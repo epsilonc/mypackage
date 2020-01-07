@@ -1,11 +1,15 @@
-#' Calculate the sums of sqares for a sample
+#' Calculate the sums of squares for a sample
 #'
-#' @param v
+#' returns the sum of the squared deviations
+#' from mean, SS(x) of a numeric vector
 #'
-#' @return
+#' @param v numeric vector
+#'
+#' @return number
 #' @export
 #'
 #' @examples
+#' sum_squares(rnorm(50))
 sum_squares <- function(v) {
   sum((v - mean(v))^2)
 }
